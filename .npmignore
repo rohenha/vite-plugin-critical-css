@@ -1,0 +1,15 @@
+# Exclure les sources TypeScript et autres fichiers inutiles de la publication npm
+src/
+types/
+node_modules/
+tsconfig.json
+*.log
+.git/
+.gitignore
+.vscode/
+
+# Garder uniquement le build, le readme, le package et la licence
+!dist/
+!README.md
+!package.json
+!LICENSE

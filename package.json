@@ -1,0 +1,41 @@
+{
+  "name": "@rohenha/vite-plugin-critical-css",
+  "version": "1.0.0",
+  "description": "Vite plugin to generate and inline critical CSS using Puppeteer",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohenha/vite-plugin-critical-css.git"
+  },
+  "keywords": [
+    "vitejs",
+    "vite-plugin",
+    "critical-css",
+    "puppeteer",
+    "css",
+    "performance",
+    "webdev"
+  ],
+  "author": "rohenha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohenha/vite-plugin-critical-css/issues"
+  },
+  "homepage": "https://github.com/rohenha/vite-plugin-critical-css#readme",
+  "dependencies": {
+    "puppeteer": "^24.28.0",
+    "purgecss": "^7.0.2",
+    "vite": "^7.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  }
+}
