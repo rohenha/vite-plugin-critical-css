@@ -1,4 +1,4 @@
-<p align="center"><img src="https://www.11ty.dev/img/logo-github.svg" width="200" height="200" alt="11ty Logo">&#160;&#160;<img src="https://v1.image.11ty.dev/https%3A%2F%2Fvitejs.dev%2Flogo.svg/png/200x200/" alt="Vite logo" width="200" height="200"></p>
+<p align="center"><img src="https://v1.image.11ty.dev/https%3A%2F%2Fvitejs.dev%2Flogo.svg/png/200x200/" alt="Vite logo" width="200" height="200"></p>
 
 # Vite plugin Critical CSS
 
@@ -6,7 +6,8 @@ Vite plugin to use inline critical CSS in html pages and lazyload CSS file in bu
 
 ## Configuration
 
-```.env
+```bash
+# .env
 VITE_PUPPETEER_EXECUTABLE_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 ```
 
